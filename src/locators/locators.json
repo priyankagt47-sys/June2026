@@ -1,0 +1,42 @@
+{
+
+   "login":{
+
+             "username":"//*[@placeholder='Username']",
+             "password":"//*[@placeholder='Password']",
+             "loginBtn":"//*[text()=' Login ']",
+             "dashboard":"(//*[text()='Dashboard'])[2]"
+
+
+
+   },
+   "admin":{
+
+             "adminmodule":"//*[text()='Admin']",
+             "systemusername":"(//*[@class='oxd-input oxd-input--active'])[2]",
+             "searchBtn":"//*[@type='submit']",
+             "result":"(//*[@class='oxd-text oxd-text--span'])[1]",
+
+             "addBtn":"//*[text()=' Add ']",
+             "userRoleDropdown":"//label[text()='User Role']/following::div[contains(@class,'oxd-select-text-input')][1]",
+             "userRoleOption":"//div[@role='option']//span[text()='{value}']",
+             "employeeName":"//*[@placeholder='Type for hints...']",
+             "employeeSuggestion":"//div[contains(@class,'oxd-autocomplete-dropdown')]//span[text()='{value}']",
+             "addUsername":"(//label[text()='Username']/following::input)[1]",
+             "statusDropdown":"//label[text()='Status']/following::div[contains(@class,'oxd-select-text-input')][1]",
+             "statusOption":"//div[@role='option']//span[text()='{value}']",
+             "password":"//label[text()='Password']/following::input[1]",
+             "confirmPassword":"//label[text()='Confirm Password']/following::input[1]",
+             "saveBtn":"//*[text()=' Save ']",
+             "successToast":"//p[contains(text(),'Successfully Saved') or contains(text(),'Successfully Updated')]"
+   }
+
+
+
+
+
+
+
+
+
+}

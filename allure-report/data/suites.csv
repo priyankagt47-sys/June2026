@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13550","Search system user with valis username","","2026-06-01","passed","2026-06-01","","","",""
+"","9651","Login with valid credentials","","2026-06-04","passed","2026-06-04","","","",""
+"","20","Search system user with valid username","","2026-06-05","skipped","2026-06-05","","","",""
+"","6102","Add a new user from Admin -> User Management","","2026-06-04","passed","2026-06-04","","","",""
+"","8652","Add a new user from Admin -> User Management","","2026-06-04","passed","2026-06-04","","","",""
